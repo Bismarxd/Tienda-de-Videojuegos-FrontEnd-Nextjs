@@ -1,0 +1,37 @@
+.noticia{
+    padding: 5rem 0;
+    margin-top: 10rem;   
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+
+@media (min-width:768px){
+    .noticiaGrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .noticia .contenido{
+        grid-column: 1 / 2;
+    }
+  }
+.noticia h2{
+
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: darkcyan;
+    text-align: center;
+  }
+
+  .noticia .texto{
+
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: azure;
+    text-align: center;
+  }
+
+  

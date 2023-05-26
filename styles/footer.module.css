@@ -1,0 +1,79 @@
+/* Footer */
+
+.footer {
+    background-color: #5300538e; /* Agrega un fondo de color o una imagen de fondo */
+    padding: 2rem 0; /* Ajusta el padding según tus necesidades */
+    font-family: var(--font-family4);
+
+    
+    
+    text-align: center; /* Alinea los enlaces y los derechos de autor al centro */
+    
+    
+    
+  }
+
+  .footer .navegacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-bottom: 1rem; /* Agrega un margen inferior para separar los enlaces del texto de derechos de autor */
+    
+
+  }
+
+  @media (min-width: 768px) {
+
+    .footer {
+        background-color: #5300538e; /* Agrega un fondo de color o una imagen de fondo */
+        padding: 2rem 0; /* Ajusta el padding según tus necesidades */
+        
+        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: var(--font-family4);
+        text-align: center; /* Alinea los enlaces y los derechos de autor al centro */
+        
+        
+        
+      }
+
+    .footer .navegacion a {
+    
+      
+        font-size: 4rem;
+      }
+
+    .footer .navegacion{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        justify-content: center;
+        margin-bottom: 1rem; /* Agrega un margen inferior para separar los enlaces del texto de derechos de autor */
+    
+    }
+    .footer .navegacion :last-of-type{
+     display: none;
+  
+  }
+
+}
+  
+  .footer .navegacion a {
+    
+    margin: 0 1rem; /* Ajusta el margen según tus necesidades */
+    color: #383838; /* Cambia el color si lo deseas */
+    text-decoration: none;
+    font-size: 3rem;
+  }
+
+  .footer .navegacion a:hover,.header .active {
+    color: #FFF;
+  }
+  
+  .footer .copyrigth {
+    font-size: 2rem; /* Ajusta el tamaño de letra según tus necesidades */
+    color: #2e2e2e; /* Cambia el color si lo deseas */
+  }

@@ -1,0 +1,166 @@
+.contenido {
+    background-color: #f822067c;
+    border: 2rem solid #f30303d3;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+
+ 
+  
+  .carrito {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  
+  }
+  .carrito h2 {
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    font-family: var(--font-family3);
+  }
+  
+  .producto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    border-bottom: 5px solid #000550d8;
+    position: relative;
+
+  }
+  
+  .producto img {
+    width: 20rem;
+    margin-right: 1rem;
+  }
+  
+  .producto h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .producto h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .producto span {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+
+  .producto span {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  .producto:last-of-type {
+    border-bottom: none;
+  }
+  .select{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: inherit;
+    border: 4px solid #001057cc;
+    border-radius: 0.5rem;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .nombre{
+    font-size: 4rem;
+  }
+
+  .precio{
+    font-size: 3rem;
+    color: chocolate;
+  }
+
+  .precio span{
+    font-size: 4rem;
+    color: chocolate;
+  }
+
+  .subtotal{
+    font-size: 3rem;
+  }
+
+  .subtotal span{
+    font-size: 4rem;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .total span:first-child {
+    font-weight: bold;
+  }
+  
+  .total span:last-child {
+    font-size: 1.2rem;
+  }
+  
+  .resumen {
+    background-color: #f822067c;
+    border: 2rem solid #f30303d3;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 4rem;
+    
+    
+  }
+  
+  .resumen h3 {
+
+    margin: 0;
+    font-family: var(--font-family4);
+  }
+  
+  .resumen p {
+  
+    font-family: var(--font-family4);
+    margin: 0.5rem 0;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  /* Eliminar */
+  .botonEliminar {
+    all: unset;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+  
+    background-color: #970505c7; /* Color rojo para destacar el botón */
+    color: #fff; /* Texto en color blanco para contrastar */
+    border: none; /* Sin borde para un aspecto más limpio */
+    padding: 10px 20px; /* Espaciado adecuado para el texto */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de letra adecuado */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .botonEliminar:hover {
+    background-color: #9603038f; /* Cambio de color al pasar el mouse */
+  }
+
+ 

@@ -1,0 +1,59 @@
+:root {
+  --primary: #030e4dab;
+  --black: #262626;
+  --white: #FFF;
+  --fuente-principal: 'Outfit', sans-serif;
+  --font-family1: 'Concert One', cursive;
+  --font-family2: 'Handlee', cursive;
+  --font-family3: 'Inconsolata', monospace;
+  --font-family4: 'Lobster', cursive;
+  --font-family5: 'Orbitron', sans-serif;
+
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 2rem;
+  font-family: var(--fuente-principal);
+  line-height: 1.5;
+ 
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+[class*="contenedor"], 
+main {
+  width: min(95%, 120rem);
+  margin: 3rem auto;
+
+}
+[class*="heading"] {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary);
+  margin: 5rem 0;
+}
+
+
+
+/* Error */
+.error, .error-enlace {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+.error-enlace {
+  display: block;
+  color: rgba(94, 1, 122, 0.767);
+  text-decoration: none;
+}
